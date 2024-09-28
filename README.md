@@ -36,6 +36,6 @@ Postman collection with HTTP requests to all endpoints - https://github.com/igor
 
 `GET /receipts/{id}` returns `200` with a sanitized receipt JSON. `404` if not found.
 
-`GET /receipts/count` returns `200` with total count of receipt in collection.
+`GET /receipts/count` returns `200` with total count of receipts in collection.
 
 
