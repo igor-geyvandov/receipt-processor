@@ -26,6 +26,8 @@ Execute unit tests by running:
 `npm test`
 
 ## API Endpoints
+Postman collection with HTTP requests to all endpoints - https://github.com/igor-geyvandov/receipt-processor/tree/main/postman
+
 `GET /` returns heathcheck status
 
 `POST /receipts/process` saves receipt in in-memory collection, and returns `201` with receipt ID. `400` if bad data provided.
