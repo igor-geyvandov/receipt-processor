@@ -1,0 +1,21 @@
+{
+  "name": "receipt-processor",
+  "version": "1.0.0",
+  "description": "Web service that fulfils the documented API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "author": "Igor Geyvandov",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "express-validator": "^7.2.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
