@@ -6,11 +6,11 @@ REST API that processes purchase receipts and calculates points awarded for each
 * Node and Express for server back-end
 * Jest for unit testing
 * Express-Validator for input validation and sanitizing
-* Docker for containarization
+* Docker for containerization
 
 ## Building and running your application
 #### With Docker installed
-If you have Docker intalled, build image and start app container by running: `docker compose up --build`.
+If you have Docker installed, build image and start app container by running: `docker compose up --build`.
 
 Your application will be available at http://localhost:8080.
 
