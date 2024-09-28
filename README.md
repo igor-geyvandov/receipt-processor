@@ -1,23 +1,31 @@
-### Building and running your application
+## About
+
+REST API that processes purchase receipts and calculates points awarded for each receipt.
+
+#### Frameworks and libraries used
+* Node and Express for server back-end
+* Jest for unit testing
+* Express-Validator for input validation and sanitizing
+* Docker for containarization
+
+## Building and running your application
+#### With Docker installed
+If you have Docker intalled, build image and start app container by running: `docker compose up --build`.
+
+Your application will be available at http://localhost:8080.
 
 #### With Node.js installed
-
 If you have Node installed, first run: `npm install`
 
 Then start your application by running: `npm start`
 
 Your application will be available at http://localhost:4000.
 
-#### With Docker installed
-If you have Docker intalled, build image and start app container by running: `docker compose up --build`.
-
-Your application will be available at http://localhost:8080.
-
-### Unit Test
+### Unit Tests
 Execute unit tests by running:
 `npm test`
 
-### API Endpoints
+## API Endpoints
 `GET /` returns heathcheck status
 
 `POST /receipts/process` saves receipt in in-memory collection, and returns `201` with receipt ID. `400` if bad data provided.
