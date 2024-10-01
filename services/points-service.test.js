@@ -105,19 +105,19 @@ test('1 pts when items have description length multiple of 3', () => {
     expect(PointsService.getPointsForItemDescriptions(items)).toBe(1);
 });
 
-test('6 pts when purcahse date is oddd', () => {
+test('0 pts when purcahse date is odd', () => {
     let purchaseDate = "Sun, 02 Jan 2022 13:13:00 GMT";
     expect(PointsService.getPointsForDateIsOdd(purchaseDate)).toBe(0);
 });
-test('6 pts when purcahse date is oddd', () => {
+test('6 pts when purcahse date is odd', () => {
     let purchaseDate = "Mon, 03 Jan 2022 16:13:00 GMT";
     expect(PointsService.getPointsForDateIsOdd(purchaseDate)).toBe(6);
 });
-test('0 pts when purcahse date is oddd', () => {
+test('0 pts when purcahse date is odd', () => {
     let purchaseDate = "Sat, 28 Sep 2024 8:13:00 GMT";
     expect(PointsService.getPointsForDateIsOdd(purchaseDate)).toBe(0);
 });
-test('6 pts when purcahse date is oddd', () => {
+test('6 pts when purcahse date is odd', () => {
     let purchaseDate = "Thu, 5 Sep 2024 18:59:00 GMT";
     expect(PointsService.getPointsForDateIsOdd(purchaseDate)).toBe(6);
 });
