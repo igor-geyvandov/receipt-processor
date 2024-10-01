@@ -97,7 +97,7 @@ test('6 pts when items have description length multiple of 3', () => {
       ];
     expect(PointsService.getPointsForItemDescriptions(items)).toBe(6);
 });
-test('0 pts when items have description length multiple of 3', () => {
+test('1 pts when items have description length multiple of 3', () => {
     let items = [
         {shortDescription: "M&M", price: 1.49 },
         {shortDescription: "Bread", price: 4.25 },
